@@ -352,4 +352,74 @@ h3+p {
     -o-transition:0.2s;
 }
 
+.container-white {
+    margin-top: 10%;
+    width:100%;
+    min-height:200px;
+    background-color: white;
+    padding:50px 0px 
+}
+.founder {
+    width: 40%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+
+}
+.founder-container {
+    background-image: url("ressource/images/effect4.png");
+    margin:10px;
+    padding:10px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    color:var(--cardtext);
+    box-shadow:0px 0px 8px 1px  #313d40;
+    
+}
+.read-more {
+    background-color: white;
+    padding:10px;
+    color:black;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.519);
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 20px;
+    text-align: center ;
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    -o-transition: 0.2s;
+}
+.report {
+    color: white ;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.8;
+    margin-top: 50px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 50px;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.report:hover {
+    color:rgb(124, 0, 70);
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
 
