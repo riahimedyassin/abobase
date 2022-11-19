@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+
+:root {
+    --mainColor:rgb(255, 35, 123) ;
+    --secondColor:rgb(255, 216, 233);
+    --thirdColor:rgb(253, 27, 117);
+    --cardtext:rgb(255, 242, 248);
+    --scrollColor:rgb(227, 0, 91);
+    --adminMainColor:rgb(255, 61, 90);
+    
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+
+    /* background-color: var(--thirdColor); */;
+    background-image: linear-gradient(20deg ,var(--mainColor),rgb(236, 30, 30) );
+
+}
+.button-color {
+    background-color: var(--adminMainColor);
+    color :white
+}
+.button-color:hover {
+    color: var(--adminMainColor);
+    background-color: rgb(255, 255, 255);
+    border:1px solid var(--adminMainColor)
+}
+.nav-custom {
+    z-index: 9999;
+    position: sticky;
+    top:0;
+    left:0;
+}
+.logo-font {
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    margin-left:2%
+}
+.navbar-color {
+    background-color: var(--secondColor);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.6);
+}
+.navbar-brand {
+    color:black;
+}
+
+.modal-margin {
+    margin-top:10vh;
+    
+}
+.modal-color {
+    background-color: var(--cardtext)
+}
+
+.link-white {
+    color: black;
+}
+.link-white:hover {
+    color:black
+}
+.link-null {
+    color:white
+}
+.link-null:hover {
+    color:white
+}
+
+.admin-login {
+    background-color: var(--secondColor);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color:black;
+    padding:30px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-bottom: 50px;
+}
+.report {
+    color: white ;
+    text-decoration: none;
+    font-size: x-large;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 50px;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+.report:hover {
+    color:rgb(124, 0, 70);
+    opacity: 1;
+    transition: 0.2s ease-in-out;
+    -webkit-transition: 0.2s ease-in-out;
+    -moz-transition: 0.2s ease-in-out;
+    -ms-transition: 0.2s ease-in-out;
+    -o-transition: 0.2s ease-in-out;
+}
+
+
