@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="style.css">
   <title>Register | ABO Base</title>
   <link rel="shortcut icon" type="image/jpg" href="ressource/icon/blood.ico" />
+  <script src="registercontrol.js"></script>
 </head>
 
 <body>
@@ -95,32 +96,32 @@
   <div class="row m-5">
     <div class="register-container">
       <div class="">
-        <form>
+        <form action="submit" method="post" name="register" onsubmit="return register()" >
           <div class="form-title">REGISTER</div>
           <div class="row g-3 mb-4">
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">First Name</label>
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required>
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required id="register-name" name="r-name">
             </div>
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required>
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required id="register-last-name"> 
             </div>
           </div>
 
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+            <input type="email" class="form-control" aria-describedby="emailHelp" required id="register-email">
             <div id="emailHelp" class="form-text">Only Valide Mails</div>
           </div>
 
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" required>
+            <input type="password" class="form-control" id="register-password" required>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Retype Password</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" required>
+            <input type="password" class="form-control" id="register-password-2" required>
           </div>
           <div class="row g-3 mb-4">
             <div class="col">
@@ -165,7 +166,7 @@
           </div>
           <div class="row">
             <div class="col-md-5 col-sm-5"></div>
-            <button type="submit" class="btn button-color  col-md-2 col-sm-2">Register</button>
+            <input type="submit" class="btn button-color  col-md-2 col-sm-2" value="Register">
             <div class="col-md-5 col-sm-5"></div>
           </div>
 
