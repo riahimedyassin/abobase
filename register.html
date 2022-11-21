@@ -12,7 +12,7 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="style.css">
   <title>Register | ABO Base</title>
-  <link rel="shortcut icon" type="image/jpg" href="ressource/icon/blood.ico" />
+  <link rel="shortcut icon" type="image/jpg" href="ressource/icon/bloodicon.ico" />
   <script src="registercontrol.js"></script>
 </head>
 
@@ -96,37 +96,42 @@
   <div class="row m-5">
     <div class="register-container">
       <div class="">
-        <form action="submit" method="post" name="register" onsubmit="return register()" >
+        <form action="submit" method="post" name="regform" onsubmit="return register()" >
           <div class="form-title">REGISTER</div>
           <div class="row g-3 mb-4">
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">First Name</label>
-              <input type="text" class="form-control" placeholder="First name" aria-label="First name" required id="register-name" name="r-name">
+              <input type="text" class="form-control" placeholder="First name" aria-label="First name"  id="register-name" name="r-name">
+              <div id="wrongwrite" class="wrong"></div>
             </div>
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Last Name</label>
-              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name" required id="register-last-name"> 
+              <input type="text" class="form-control" placeholder="Last name" aria-label="Last name"  id="register-last-name"> 
+              <div id="wrong-forname" class="wrong"></div>
             </div>
+            
           </div>
 
           <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
-            <input type="email" class="form-control" aria-describedby="emailHelp" required id="register-email">
+            <input type="email" class="form-control" aria-describedby="emailHelp"  id="register-email" required>
             <div id="emailHelp" class="form-text">Only Valide Mails</div>
+            <div class="wrongemail" class="wrong"></div>
           </div>
 
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Password</label>
-            <input type="password" class="form-control" id="register-password" required>
+            <input type="password" class="form-control" id="register-password" >
+            <div class="wrongpass" class="wrong"></div>
           </div>
           <div class="mb-3">
             <label for="exampleInputPassword1" class="form-label">Retype Password</label>
-            <input type="password" class="form-control" id="register-password-2" required>
+            <input type="password" class="form-control" id="register-password-2" >
           </div>
           <div class="row g-3 mb-4">
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">BloodType</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example" required>
+              <select class="form-select form-select" aria-label=".form-select-lg example" >
                 <option disabled>Choose Your Blood Type</option>
                 <option value="b1">A</option>
                 <option value="b2">B</option>
@@ -136,7 +141,7 @@
             </div>
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Rhesus Type</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example" required>
+              <select class="form-select form-select" aria-label=".form-select-lg example" >
                 <option disabled>Choose Your Rhesus Type</option>
                 <option value="r1">Rh+</option>
                 <option value="r2">Rh-</option>

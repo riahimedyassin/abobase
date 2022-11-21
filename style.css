@@ -20,12 +20,11 @@
 }
 ::-webkit-scrollbar-thumb {
     background-color: var(--scrollColor);
-    box-shadow: 0 0 2px 0px black inset;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
 
 body {
@@ -370,6 +369,7 @@ h3+p {
 }
 .founder-container {
     background-image: url("ressource/images/effect4.png");
+    background-color: rgb(194, 5, 36);
     margin:10px;
     padding:10px;
     border-radius: 12px;
@@ -382,9 +382,9 @@ h3+p {
     
 }
 .read-more {
-    background-color: white;
+    background-color: rgb(255, 7, 82);
     padding:10px;
-    color:black;
+    color:rgb(255, 255, 255);
     border-radius: 8px;
     box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.519);
     -webkit-border-radius: 8px;
@@ -421,5 +421,16 @@ h3+p {
     -ms-transition: 0.2s ease-in-out;
     -o-transition: 0.2s ease-in-out;
 }
+.wrong {
+    background-color: rgba(248, 52, 52, 0.426);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 10px;
+    
 
+    
+}
 

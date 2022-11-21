@@ -191,5 +191,25 @@ body {
     overflow-y: hidden;
     margin-bottom: 50px;
 }
+.user-edit {
+    margin-top: 5px;
+    width:3%;
+    height: auto;
+    
+}
+.user-cont {
+    
+    width:80%;
+    text-align: center;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+.madal-custom {
+    margin-top: 80px;
+}
 
 
