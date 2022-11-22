@@ -113,6 +113,10 @@ body {
     -ms-transition:0.2s;
     -o-transition:0.2s;
 }
+.nav-icon {
+    width:35px;
+    
+}
 .cont {
     padding:10px;
     margin-top: 50px;
@@ -125,6 +129,9 @@ body {
     -ms-border-radius: 12px;
     -o-border-radius: 12px;
     
+}
+.profile-cont {
+    height:auto
 }
 
 .cont-child{
@@ -159,12 +166,18 @@ body {
     background-image: linear-gradient(20deg,rgb(245, 65, 104),rgb(225, 25, 65))
 }
 .total-donor:hover {
+    background-image: linear-gradient(80deg,rgb(245, 65, 65),rgb(225, 25, 65));
     box-shadow: 0px 2px 5px 8px rgba(172, 0, 17, 0.467);
     transform: translateY(-10px);
     -webkit-transform: translateY(-10px);
     -moz-transform: translateY(-10px);
     -ms-transform: translateY(-10px);
     -o-transform: translateY(-10px);
+    transition:0.2s ease-in-out;
+    -webkit-transition:0.2s ease-in-out;
+    -moz-transition:0.2s ease-in-out;
+    -ms-transition:0.2s ease-in-out;
+    -o-transition:0.2s ease-in-out;
 }
 .total-hospt:hover {
     box-shadow: 0px 2px 5px 8px rgba(172, 0, 17, 0.467);
@@ -195,10 +208,8 @@ body {
     margin-top: 5px;
     width:3%;
     height: auto;
-    
 }
 .user-cont {
-    
     width:80%;
     text-align: center;
     background-color: white;
@@ -211,5 +222,20 @@ body {
 .madal-custom {
     margin-top: 80px;
 }
+.wrong {
+    background-color: rgba(248, 52, 52, 0.426);
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-top: 10px;   
+}
+.admin-cont {
+    background-color: rgb(255, 0, 47);
 
-
+}
+.input-resize {
+    width:50%;
+    margin-top:20px ;
+}

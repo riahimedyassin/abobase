@@ -13,6 +13,8 @@
       <link rel="stylesheet" href="adminstyle.css">
       <title>Admin Login | ABO Base</title>
       <link rel="shortcut icon" type="image/jpg" href="../ressource/icon/admin.ico" />
+      <script src="admincontrol.js"></script>
+    
     
     </head>
 <body>
@@ -21,24 +23,25 @@
     </nav>
     <div class="row" style="margin-top:7%">
         <div class="d-flex justify-content-center ">
-            <form class="d-flex flex-column align-content-center admin-login">
+            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" action="dashboard.html">
                 <div class="col d-flex justify-content-center">
                     <img src="../ressource/icon/admin.png" alt="" style="width:30%">
                 </div>
                 <div class="mb-3">
-                  <label for="exampleInputEmail1" class="form-label">Email address</label>
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                  <label for="exampleInputEmail1" class="form-label">Username</label>
+                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+                  <span id="wronguser wrong"></span>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="exampleInputPassword1">
+                  <input type="password" class="form-control" id="password">
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
-                <button type="submit" class="btn button-color">Submit</button>
-              </form>
+                <input type="submit" class="btn button-color" value="Login">
+            </form>
               
         </div>
         
@@ -52,7 +55,6 @@
             </div>
         </div>
     </footer>
-
 
       
     
