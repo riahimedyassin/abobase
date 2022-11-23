@@ -422,7 +422,8 @@ h3+p {
     -o-transition: 0.2s ease-in-out;
 }
 .wrong {
-    background-color: rgba(248, 52, 52, 0.426);
+    background-color: rgba(255, 0, 0, 0.249);
+    color:black;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;

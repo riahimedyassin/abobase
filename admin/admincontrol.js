@@ -13,14 +13,39 @@ function isAlpha(ch) {
     return true;
 
 }
-
+function passcheck(ch) {
+    if (ch=="") {
+        return false;
+    }
+    else if (ch.indexOf(".")==-1) {
+        return false ;
+    }
+    else if (ch.length<8) {
+        return false;
+    }
+    else {
+        return true;
+    }
+    
+}
 
 function login() {
     var user=document.getElementById("username").value;
-    //var password=document.getElementById("password").value;
+    var pass=document.getElementById("password").value;  
     if (isAlpha(user)==false) {
         document.getElementById("wronguser").innerHTML="Please enter a valid username";
         return false;
     }
-    return true;
+    else {
+        document.getElementById("wronguser").innerHTML="";
+    }
+    if (passcheck(pass)==false) {
+        document.getElementById("wrongpass").innerHTML="Please enter a valid password";
+        return false;
+    }
+    else {
+        document.getElementById("wrongpass").innerHTML="";
+    }
+
+
 }

@@ -64,7 +64,7 @@ function register() {
     var forname = document.getElementById("register-last-name").value;
 
     if (isAlpha(name) == false) {
-        document.getElementById("wrongwrite").innerHTML = "Wrong Name";
+        document.getElementById("wrongwrite").innerHTML = "Type a Valid Name";
         document.getElementById("register-name").focus();
         return false;
     }
@@ -72,7 +72,7 @@ function register() {
         document.getElementById("wrongwrite").innerHTML = "";
     }
     if (isAlpha(forname) == false) {
-        document.getElementById("wrong-forname").innerHTML = "Wrong Forname";
+        document.getElementById("wrong-forname").innerHTML = "Type a Valid ForName";
         document.getElementById("register-last-name").focus();
         return false;
     }

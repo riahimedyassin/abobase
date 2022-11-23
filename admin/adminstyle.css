@@ -223,13 +223,15 @@ body {
     margin-top: 80px;
 }
 .wrong {
-    background-color: rgba(248, 52, 52, 0.426);
+    background-color: rgba(255, 0, 0, 0.249);
+    color:black;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    margin-top: 10px;   
+    margin-top: 15px;
+    
 }
 .admin-cont {
     background-color: rgb(255, 0, 47);
