@@ -429,8 +429,10 @@ h3+p {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     margin-top: 10px;
-    
 
-    
+}
+.profile-card {
+    margin:60px 0px;
+    text-align: center;
 }
 
