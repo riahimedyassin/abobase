@@ -37,7 +37,13 @@ body {
     position: sticky;
     top:0;
     left:0;
+    opacity: 0.9;
+    transition-duration: 0.2s;
 }
+.nav-custom:hover{
+    opacity: 1;
+}
+
 .logo-font {
     font-family:'Poppins', sans-serif;
     font-weight: 400;
@@ -240,4 +246,9 @@ body {
 .input-resize {
     width:50%;
     margin-top:20px ;
+}
+.very-small-icon {
+    width:20px;
+    height: 20px;
+    
 }
