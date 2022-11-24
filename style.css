@@ -209,10 +209,10 @@ hr {
 }
 .slogon {
     color:var(--secondColor);
-    position: absolute;
-    top:400px;
-    left:200px;
-    font-size: larger;
+     /* position: relative;
+    left:18%;
+    top :-60px; */
+    /* font-size: larger; */
 }
 
 /*footer*/
