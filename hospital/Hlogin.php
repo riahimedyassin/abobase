@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,11 +21,11 @@
 
 <body>
     <nav class="navbar nav-custom navbar-color d-flex justify-content-center">
-        <a class="navbar-brand " href="../home.html">ABO Base</a>
+        <a class="navbar-brand " href="../index.php">ABO Base</a>
     </nav>
     <div class="row" style="margin-top:7%">
         <div class="d-flex justify-content-center">
-            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" action="Hdashboard.html">
+            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" action="hdashboard.php">
                 <div class="col d-flex justify-content-center">
                     <img src="../ressource/icon/hospital.png" alt="" style="width:30%">
                 </div>

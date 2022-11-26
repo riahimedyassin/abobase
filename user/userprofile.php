@@ -20,7 +20,7 @@
   <div class="row nav-custom">
     <nav class="navbar navbar-expand-lg navbar-color">
       <div class="container-fluid">
-        <a class="navbar-brand logo-font" href="home.html">ABO Base</a>
+        <a class="navbar-brand logo-font" href="index.php">ABO Base</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,28 +44,23 @@
     </nav>
   </div>
 
-  <h1 style="text-align: center; margin-top: 50px;color:bisque">My Profile</h1>
+  <h1 style="text-align: center; margin-top: 50px;color:bisque">Welcome </h1>
   <div class="d-flex justify-content-center">
     <div class="card profile-card p-3 card-color" style="width: 40rem;background-color: rgb(250, 215, 227); color: black;">
+      
+      
       <div class="card-body">
         <h5 class="card-title">Nom et Prenom</h5>
-        <h2 class="card-text">Blood Type : A/B/AB/O</h2>
-        <h3 class="card-text">Rhesus + / Rhesus -</h3>
+        <h5 class="card-text">Blood Type : A/B/AB/O</h5>
+        <h5 class="card-text">Rhesus + / Rhesus -</h5>
         <h3 class="card-text">Availibilty : Available</h3>
         <p class="card-text">Joined Since : </p>
         <a href="#" class="btn button-color">Change Availibility</a>
         <br>
-        <a href="home.html" class="btn btn-danger " style="margin-top:20px">Disconnect</a>
+        <a href="index.php" class="btn btn-danger " style="margin-top:20px">Disconnect</a>
       </div>
     </div>
   </div>
-
-
-
-
-
-
-
     <footer class="d-flex p-4 justify-content-around footerc">
         <div class="col-md-4">
           <div class="d-flex row justify-content-between align-content-center">
@@ -87,7 +82,8 @@
             <div class="d-flex justify-content-around flex-column align-center">
               <a href="privacy.html" class="link-null">Read the Privacy</a>
               <a href="founders.html" class="link-null">Founders</a>
-              <a href="admin/login.html" class="link-null">Admin</a>
+              <a href="admin/login.php" class="link-null">Admin</a>
+              <a href="hospital/Hlogin.php" class="link-null">Hospital</a>
             </div>
           </div>
         </div>

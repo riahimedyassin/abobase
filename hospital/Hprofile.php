@@ -17,22 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-light d-flex justify-content-around nav-custom navbar-color">
-    <div class="d-flex justify-content-around align-items-center">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-link " aria-current="page" href="Hdashboard.html">Dashboard</a>
-          <a class="nav-link" href="Hrequest.html">Request a Donor</a>
-          <a href="Hprofile.html" class="nav-link"><img src="../ressource/icon/hospital.png" alt=""
-              class="nav-icon"></a>
-        </div>
-      </div>
-    </div>
-  </nav>
+  <?php include "../pages/hospital/hnav.php" ?>
   <div class="d-flex justify-content-center p-3 m-3">
     <div class="cont  profile-cont d-flex flex-column justify-content-center align-content-center ">
       <div class="d-flex align-content-center flex-column align-items-center">
@@ -47,23 +32,14 @@
         <input type="password" name="" id="changePassConfirm" class="form-control input-resize">
       </div>
       <div class="d-flex justify-content-center">
-        <a href="Hlogin.html" class="btn btn-danger">Disconnect</a>
+        <a href="hlogin.php" class="btn btn-danger">Disconnect</a>
       </div>
     </div>
   </div>
 
 
 
-  <footer>
-    <div class="row d-flex align-content-center justify-content-center">
-      <div class="col d-flex align-content-center justify-content-center">
-        <a href="https://www.linkedin.com/in/riahi-yassin-32ba05243/" target="_blank" class="report">
-          Report a Problem
-        </a>
-      </div>
-    </div>
-  </footer>
-
+  <?php include "../pages/hospital/hfooter.php" ?>
 </body>
 
 </html>

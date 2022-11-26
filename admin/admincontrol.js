@@ -32,14 +32,16 @@ function login() {
     var user=document.getElementById("username").value;
     var pass=document.getElementById("password").value;  
     if (isAlpha(user)==false) {
-        document.getElementById("wronguser").innerHTML=`<img src="../ressource/icon/warning.png" class="very-small-icon">"Please enter a valid Username"`;
+        document.getElementById("wronguser").innerHTML=`<img src="../ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please enter a valid Username"`;
         return false;
     }
     else {
         document.getElementById("wronguser").innerHTML="";
     }
     if (passcheck(pass)==false) {
-        document.getElementById("wrongpass").innerHTML=`<img src="../ressource/icon/warning.png" class="very-small-icon">"Please enter a valid Password"`;;
+        document.getElementById("wrongpass").innerHTML=`<img src="../ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please enter a valid Password"`;;
         return false;
     }
     else {
