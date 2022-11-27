@@ -113,6 +113,48 @@ function register() {
     else {
         document.getElementById("wrong-match").innerHTML="";
     }
+    if (regform.bloodtype.selectedIndex==0) {
+        document.getElementById("wrongblood").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please Choose your blood Type"`
+        return false;
+    }
+    else {
+        document.getElementById("wrongblood").innerHTML="";
+    }
+    if (regform.rhesustype.selectedIndex==0) {
+        document.getElementById("wrongrhesus").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please Choose your Rhesus Type"`
+        return false;
+    }
+    else {
+        document.getElementById("wrongrhesus").innerHTML="";
+    }
+    if (regform.tattos.selectedIndex==0) {
+        document.getElementById("wrongtattos").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please Answer"`
+        return false;
+    }
+    else {
+        document.getElementById("wrongtattos").innerHTML="";
+    }
+    if (regform.sick.selectedIndex==0) {
+        document.getElementById("wrongsick").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"Please Answer"`
+        return false;
+    }
+    else {
+        document.getElementById("wrongsick").innerHTML="";
+    }
+    if (!regform.agree.checked) {
+        document.getElementById("wrongagree").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
+        height: 20px;">"You have to read and agree to the website's privacy"`
+        return false;
+    }
+    else {
+        document.getElementById("wrongagree").innerHTML="";
+    }
+
+
     
     
     

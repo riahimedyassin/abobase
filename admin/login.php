@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -23,25 +24,29 @@
     </nav>
     <div class="row" style="margin-top:7%">
         <div class="d-flex justify-content-center ">
-            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" action="dashboard.html">
+            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" method="POST" action="logverfi.php">
                 <div class="col d-flex justify-content-center">
                     <img src="../ressource/icon/admin.png" alt="" style="width:30%">
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputEmail1" class="form-label">Username</label>
-                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp">
+                  <input type="text" class="form-control" id="username" aria-describedby="emailHelp" name="username">
                   <span id="wronguser" class="wrong"></span>
                 </div>
                 <div class="mb-3">
                   <label for="exampleInputPassword1" class="form-label">Password</label>
-                  <input type="password" class="form-control" id="password">
+                  <input type="password" class="form-control" id="password" name="password">
                   <span id="wrongpass" class="wrong"></span>
+                  <?php 
+                    if (isset($error)) {echo 'nexsite pas';} 
+        
+                  ?>
                 </div>
                 <div class="mb-3 form-check">
                   <input type="checkbox" class="form-check-input" id="exampleCheck1">
                   <label class="form-check-label" for="exampleCheck1">Remember Me</label>
                 </div>
-                <input type="submit" class="btn button-color" value="Login">
+                <button type="submit" class="btn button-color"name="logme">Login</button>
             </form>
               
         </div>

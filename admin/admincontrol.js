@@ -1,12 +1,12 @@
 function isAlpha(ch) {
     
-    if (isNaN(ch)==false || ch.length<1 || ch.length>10 ) {
+    if (isNaN(ch)==false || ch.length<1 || ch.length>20 ) {
 
        return false;
     }
-    ch=ch.toUpperCase();
+    ;
     for (let i=0;i<ch.length;i++) {
-        if ((ch[i]<"A")||(ch[i]>"Z"))  {
+        if ((ch[i].toUpperCase()<"A")||(ch[i].toUpperCase()>"Z"))  {
             return false;
         }
     }

@@ -60,52 +60,58 @@
           <div class="row g-3 mb-4">
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">BloodType</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example">
+              <select class="form-select form-select" aria-label=".form-select-lg example" name="bloodtype">
                 <option selected>Choose Your Blood Type</option>
                 <option value="b1">A</option>
                 <option value="b2">B</option>
                 <option value="b3">AB</option>
                 <option value="b4">O</option>
               </select>
+              <span id="wrongblood" class="wrong"></span>
             </div>
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Rhesus Type</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example">
+              <select class="form-select form-select" aria-label=".form-select-lg example" name="rhesustype">
                 <option selected>Choose Your Rhesus Type</option>
                 <option value="r1">Rh+</option>
                 <option value="r2">Rh-</option>
               </select>
+              <span id="wrongrhesus" class="wrong"></span>
             </div>
           </div>
           <div class="row g-3 mb-4">
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Do you have any tattos</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example">
+              <select class="form-select form-select" aria-label=".form-select-lg example" name="tattos">
                 <option>Answaer : Yes or No</option>
                 <option value="t1">Yes</option>
                 <option value="t2">No</option>
                 <option value="t3">I used to have one</option>
               </select>
+              <span id="wrongtattos" class="wrong"></span>
             </div>
             <div class="col">
               <label for="exampleInputEmail1" class="form-label">Any serious sickness</label>
-              <select class="form-select form-select" aria-label=".form-select-lg example">
+              <select class="form-select form-select" aria-label=".form-select-lg example" name="sick">
                 <option selected>Answer </option>
                 <option value="s1">Yes</option>
                 <option value="s2">No</option>
               </select>
+              <span id="wrongsick" class="wrong"></span>
             </div>
           </div>
           <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="agreement">
+            <input type="checkbox" class="form-check-input" id="agreement" name="agree">
             <label class="form-check-label" for="exampleCheck1">I agree to <a href="privacy.html" class="link-white">the
                 privacy of this website</a></label>
           </div>
+          <span id="wrongagree" class="wrong"></span>
           <div class="row">
             <div class="col-md-5 col-sm-5"></div>
             <input type="submit" class="btn button-color  col-md-2 col-sm-2" value="Register">
             <div class="col-md-5 col-sm-5"></div>
           </div>
+          
 
         </form>
       </div>
