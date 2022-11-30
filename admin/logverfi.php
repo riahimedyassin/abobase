@@ -9,6 +9,7 @@
     $password=$_POST['password'];
     
     $con=mysqli_connect("localhost","root","","admin");
+    mysqli_select_db("admin");
     $sql="SELECT * FROM admins WHERE username='$username' AND password='$password'";
     $res=mysqli_query($con,$sql);
     $rows=mysqli_num_rows($res);
@@ -20,5 +21,6 @@
     mysqli_query($con,$sql);
     mysqli_close($con);
   }
+  
 
 ?>

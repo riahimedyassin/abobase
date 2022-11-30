@@ -15,7 +15,6 @@
   <link rel="stylesheet" href="../admin/adminstyle.css">
   <link rel="shortcut icon" type="image/jpg" href="../ressource/icon/hospt.ico" />
 </head>
-
 <body>
   <?php include "../pages/hospital/hnav.php" ?>
   <div class="d-flex justify-content-center p-3 m-3">
@@ -36,9 +35,6 @@
       </div>
     </div>
   </div>
-
-
-
   <?php include "../pages/hospital/hfooter.php" ?>
 </body>
 

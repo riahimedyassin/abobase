@@ -97,7 +97,7 @@ function register() {
 
     if (passwordchecker()== false) {
         document.getElementById("wrongpass").innerHTML=`<img src="ressource/icon/warning.png" style="width:20px;
-        height: 20px;">"Please enter a valid Password"`;
+        height: 20px;">"Please enter a valid Password : At least 1 Number & 1 MajChar"`;
         document.getElementById("register-password").focus();
         return false;
     }

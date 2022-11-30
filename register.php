@@ -117,6 +117,7 @@
       </div>
     </div>
   </div>
+  <?php include "pages/donate.php" ?>
   <?php include "pages/home/homefooter.php" ?>
   
 

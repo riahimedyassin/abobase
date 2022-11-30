@@ -108,7 +108,7 @@
           <div class="col-md-6 p-4 ps-md-0 ">
             <h2 class="mt-0">Send US an Email</h2>
                 <div class="row ">
-                  <form class="d-flex flex-column justify-content-start p-3" action=”riahiyassintl101@gmail.com”
+                  <form class="d-flex flex-column justify-content-start p-3" action=””
                   method=”POST”
                   enctype=”text/plain”
                   name=”EmailForm”>
@@ -131,6 +131,7 @@
 
     </div>
   </div>
+  <?php include "pages/donate.php" ?>
   <?php include "pages/home/homefooter.php"?>
 </body>
 
