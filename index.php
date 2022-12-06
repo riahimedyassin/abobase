@@ -26,6 +26,7 @@
   <title>Home | ABO Base</title>
   <link rel="shortcut icon" type="image/jpg" href="ressource/icon/bloodicon.ico" />
 
+
 </head>
 
 <body>
@@ -52,22 +53,22 @@
     <div class="row d-flex align-center">
       <h2>About US</h2>
     </div>
-    <div class="row d-flex justify-content-around">
-      <div class="card card-color card-hover col-md-3" style="width: 20rem;">
+    <div class="row d-flex justify-content-around hidden">
+      <div class="card card-color card-hover col-md-3 " style="width: 20rem;">
         <a href="privacy.html#isa"><img src="ressource/images/identite.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
           <h5 class="card-title">Register Secured</h5>
           <p class="card-text">All of your data will be stored,manipulated and used in a safe way</p>
         </div>
       </div>
-      <div class="card card-color card-hover col-md-3" style="width: 20rem;">
+      <div class="card card-color card-hover col-md-3 " style="width: 20rem;">
         <a href="privacy.html#isk"><img src="ressource/images/donate.png" class="card-img-top" alt="..."></a>
         <div class="card-body">
           <h5 class="card-title">Donate Safely</h5>
           <p class="card-text">Your donations will be realised only in Hospitals with good equipments</p>
         </div>
       </div>
-      <div class="card card-color card-hover col-md-3" style="width: 20rem;">
+      <div class="card card-color card-hover col-md-3 " style="width: 20rem;">
         <a href="privacy.html#icu stretched-link"><img src="ressource/images/hospital.png" class="card-img-top" alt="hospital"></a>
         <div class="card-body">
           <h5 class="card-title">Data only for Hospitals</h5>
@@ -99,10 +100,10 @@
           <div class="col-md-6 mb-md-0 p-md-4">
             <h2 class="mt-0">You Can Find Us On</h2>
               <ul class="contact-links d-flex flex-column align-content-start">
-                <li><a href="" target="_blank" class="facebook">Facebook</a></li>
-                <li><a href="" target="_blank" class="instagram">Instagram</a></li>
-                <li><a href="" target="_blank" class="facebook">LinkedIn</a></li>
-                <li><a href="" target="_blank" class="behance">Behance</a></li>
+                <li><a href="https://www.facebook.com/8I93f/" target="_blank" class="facebook">Facebook</a></li>
+                <li><a href="https://twitter.com/8_93f" target="_blank" class="instagram">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/riahi-yassin-32ba05243/" target="_blank" class="facebook">LinkedIn</a></li>
+                <li><a href="ressource/icon/behance.png" target="_blank" class="behance">Behance</a></li>
               </ul>
           </div>
           <div class="col-md-6 p-4 ps-md-0 ">
@@ -133,6 +134,7 @@
   </div>
   <?php include "pages/donate.php" ?>
   <?php include "pages/home/homefooter.php"?>
+  <script src="animation.js"></script>
 </body>
 
 </html>

@@ -20,17 +20,19 @@
   <div class="d-flex justify-content-center p-3 m-3">
     <div class="cont  profile-cont d-flex flex-column justify-content-center align-content-center ">
       <div class="d-flex align-content-center flex-column align-items-center">
-        <h1>Hospital Name</h1>
-        <h2>exemple@gmail.com</h2>
-        <h3>Change Password ?</h3>
+        <img src="../ressource/images/hospital.png" alt="" class="icon-size">
+        <h1 class="p-3">Hospital Name</h1>
+        <h2 class="p-3">exemple@gmail.com</h2>
+        <h3 class="p-3">Change Password ?</h3>
       </div>
-      <div class="d-flex justify-content-start align-content-center m-3 align-items-center">
+      <div class="d-flex justify-content-start align-content-center m-3 align-items-center flex-column">
         <label for="">New password</label>
         <input type="password" name="" id="changePass" class="form-control input-resize">
         <label for="">Retype Password</label>
         <input type="password" name="" id="changePassConfirm" class="form-control input-resize">
       </div>
       <div class="d-flex justify-content-center">
+        <button type="submit" class="btn btn-success me-5 ">Save Changes</button>
         <a href="hlogin.php" class="btn btn-danger">Disconnect</a>
       </div>
     </div>

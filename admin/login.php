@@ -24,7 +24,7 @@
     </nav>
     <div class="row" style="margin-top:7%">
         <div class="d-flex justify-content-center ">
-            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" method="POST" action="logverfi.php">
+            <form class="d-flex flex-column align-content-center admin-login" onsubmit="return login()" method="POST" action="dashboard.php">
                 <div class="col d-flex justify-content-center">
                     <img src="../ressource/icon/admin.png" alt="" style="width:30%">
                 </div>

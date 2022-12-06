@@ -106,6 +106,9 @@
                 privacy of this website</a></label>
           </div>
           <span id="wrongagree" class="wrong"></span>
+          <div class="row p-3">
+            <a class="link-white" href="https://www.google.tn/maps/search/H%C3%B4pitaux/@36.6072026,10.0974907,10z/data=!4m25!1m16!4m15!1m6!1m2!1s0x12e2cad2e1d7f1bb:0x902488d100b5819b!2sA%C3%A9roport+Tunis-Carthage,+Tunis!2m2!1d10.2175601!2d36.8475562!1m6!1m2!1s0x12fd6392f2b26221:0xe9cf290510e9a7c3!2sM%C3%A9hari+Hammamet,+Yasmine+Hammamet!2m2!1d10.5346542!2d36.3632716!3e0!2m7!3m6!1zSMO0cGl0YXV4!2sHotel+M%C3%A9hari+Hammamet!3s0x12fd6392f2b26221:0xe9cf290510e9a7c3!4m2!1d10.5347533!2d36.3629076?hl=fr">Don't Know your blood type Yet ? Click Here </a>
+          </div>
           <div class="row">
             <div class="col-md-5 col-sm-5"></div>
             <input type="submit" class="btn button-color  col-md-2 col-sm-2" value="Register">
